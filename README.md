@@ -2,14 +2,16 @@
 
 A command-line X&0 game written in GO.
 
-##Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Requirements](#-requirements)
-- [How to Run](#-how-to-run)
-- [Gameplay](#-gameplay)
-- [Work in Progress](#-work-in-progress)
-- [Screenshot](#-screenshot)
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [How to Run](#how-to-run)
+- [Gameplay](#gameplay)
+- [Work in Progress](#work-in-progress)
+- [Screenshot](#screenshot)
+
+
 
 ## Overview
 
@@ -25,11 +27,16 @@ This is a 2-player terminal-based X&0 game.
         -If the chosen cell is already occupied, the player is asked to retry
         -Only numerical input in the format 'row column' is accepted
 
+
+
+
 ## Requirements
 
 -Programming Language: Go (Golang)
 -Recommended version: 'go1.20+'
 -OS: macOS, Linux, Windows
+
+
 
 ## How to Run
 
@@ -38,6 +45,8 @@ This is a 2-player terminal-based X&0 game.
     git clone https://github.com/G3orge123/X-0Project.git     
 2. Run the game:
     go run main.go
+
+
 
 ## Gameplay
 
@@ -56,12 +65,16 @@ End of Game:
 -If a player manages to align three of their symbols (horizontally, vertically, or diagonally) a win message is displayed
 -If all cells are filled without a winner, the game ends in a draw
 
+
+
 ## Work in Progress
 
 Player vs AI mode:
 -Planned feature that will alow the user to play against a simple AI opponent. The AI will select its moves random, and possibly later with basic strategy like e.g., block or win.
 Score tracking:
 -Add a scoreboard to keep track of wins, losses, and draws across multiple rounds within the same session.
+
+
 
 ## Screenshot
 
